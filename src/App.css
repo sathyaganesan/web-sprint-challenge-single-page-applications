@@ -1,9 +1,6 @@
 .App {
   text-align: center;
-  width: 50%;
-  margin: auto;
-  border: 1px solid black;
-  text-align: left;
+  
 }
 
 .App-logo {
@@ -32,6 +29,12 @@
   color: #61dafb;
 }
 
+h1 {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
 .titleclass {
   background-color: rgb(228, 226, 226);
   text-align: left;
@@ -45,4 +48,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.textareastyle {
+  margin-left: 10px;
+  width: 450px;
+  height: 100px;
+  margin: auto;
+}
+
+input {
+  margin-left: 10px;
+}
+
+.formdiv {
+  width: 50%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.toppingdiv {
+  display: flex;
+  flex-direction: row;
 }
