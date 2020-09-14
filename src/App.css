@@ -31,9 +31,7 @@
 
 h1 {
   color: red;
-  display: flex;
-  justify-content: center;
-}
+ }
 
 .titleclass {
   background-color: rgb(228, 226, 226);
@@ -48,6 +46,23 @@ h1 {
   to {
     transform: rotate(360deg);
   }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_links {
+  display: flex;
+  justify-items: center;
+}
+
+.nav_links a{
+  margin: 10px;
+  text-decoration: none;
+  color: red;
+  font-size: large;
 }
 
 .textareastyle {
@@ -70,4 +85,23 @@ input {
 .toppingdiv {
   display: flex;
   flex-direction: row;
+}
+
+button {
+  width: 90px;
+  height: 40px;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 7px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.pizza_image {
+  width: 100%;
+}
+
+.order_card {
+  border: 1 px solid red;
+  border-radius: 10px;
 }
