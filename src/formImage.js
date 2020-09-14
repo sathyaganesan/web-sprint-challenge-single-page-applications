@@ -1,12 +1,12 @@
 import React from 'react';
-import Pizza from './Pizza.jpg';
 
-const formImage = (props) => {
+const FormImage = (props) => {
     return (
         <div>
-            <img src = {Pizza.jpg} alt="Pizza Image" />
+            <h2>Form Image Component</h2>  
         </div>
+       
     );
 };
 
-export default formImage;
+export default FormImage;
